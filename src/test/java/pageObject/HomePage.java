@@ -24,6 +24,7 @@ public class HomePage {
 	{
 		element = driver.findElement(By.xpath("//button[@class='switcher-toggle active']"));
 		return element;
+		//testing purpose
 	}
 	
 	public static WebElement headerLanguagechanger(WebDriver driver)
